@@ -1,0 +1,241 @@
+/* Global styles */
+body{
+    padding: 0;
+    margin: 0;
+    font-family: "Roboto";
+}
+a{
+    text-decoration: none;
+    color: #000;
+}
+h1,h2,h3{
+    margin: 0;
+}
+ul{
+    padding: 0;
+    margin: 0;
+}
+li{
+    list-style-type: none;
+}
+p{
+    margin: 0;
+    padding: 0;
+}
+
+/* Header styles */
+.header{
+    width: 1170px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+
+}
+header nav {
+    display: flex;
+    justify-content: space-between;
+    padding: 24px;
+}
+.logo{
+    text-decoration: none;
+    font-size: 26px;
+    font-family: 'Oswald', sans-serif;
+    font-family: 'Raleway', sans-serif;
+    color: #2196F3;
+    margin: 0 94px 0 0;
+}
+.logo>span{
+    color: #000;
+}
+
+.header__nav {
+    /* list-style-type: none; */
+    display: flex;
+    justify-content: space-between;
+    width: 294px;
+}
+.header__nav_link{
+    margin: auto 0;
+}
+
+.header_addres_link{
+    font-style: normal;
+    color: #000;
+    /* font-family: "Roboto"; */
+}
+a:hover{
+    color: #2196F3;
+    transition: 0.3s;
+    cursor: pointer;    
+}
+.address{
+    margin: auto 0;
+}
+.address a:last-child{
+    padding-left: 40px;
+}
+
+/* Hero styles */
+.hero{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    background-color: #2F303A;
+    height: 600px;
+    color: #fff;
+}
+.hero_section{
+   margin: auto 0;
+}
+.hero h1 {
+    /* font-family: "Roboto"; */
+    font-weight: 900;
+    font-size: 44px;
+    width: 696px;
+    margin-bottom: 1.5em;
+}
+
+.btn{
+    color: #fff;
+    background-color: #2196F3;
+    padding: 1em 2em;
+    border-radius: 4px;
+    border: none;
+}
+
+/*style peculiarities*/
+.peculiarities_wrapper{
+    width: 1170px;
+    margin: 0 auto;
+    /* font-family: "Roboto"; */
+}
+.peculiarities_box{
+    display: flex;
+    justify-content: center;
+}
+.peculiarities_list{
+    display: flex;
+    margin: 0;
+    padding: 0;
+}
+.peculiarities_item{
+    width: 270px;
+    /* list-style-type: none; */
+    padding: 94px 0 94px 0;
+}
+.peculiarities_item:not(:last-child) {
+    padding-right: 30px;
+}
+.peculiarities_title{
+    font-size: 14px;
+    font-weight: 700;
+    color: #212121;
+    margin: 0 0 10px 0;
+}
+.peculiarities_descr{
+    font-size: 14px;
+    font-weight: 400;
+    color: #757575;
+}
+
+/* activity style */
+.activity_wrapper{
+    width: 1170px;
+    margin: 0 auto;
+}
+.activity_box{
+    justify-content: center;
+}
+
+/* style for all titles */
+.title{
+    display: flex;
+    justify-content: center;
+    font-size: 36px;
+    font-weight: 700;
+}
+
+.activity_list{
+    display: flex;
+    margin: 0;
+    padding: 0;
+}
+.activity_item{
+    /* list-style-type: none; */
+    margin: 50px auto 90px auto;
+    width: 370px;
+}
+.activity_item:not(last-child) {
+    padding-right: 30px;
+}
+
+
+/* our team styles */
+.team{
+    background-color: #F5F4FA;
+    padding: 94px 0 94px 0;
+}
+.team_box{
+    width: 1170px;
+    margin: 0 auto;
+}
+.team_list{
+    display: flex;
+    justify-content: space-between;
+    margin: 50px 0 0 0;
+}
+.team_card{
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 2px 4px;
+}
+.team_card>img {
+    width: 270px;
+    display: inherit;
+}
+.card_wrapper{
+    /* width: 270px; */
+    background-color: #fff;
+    border-radius: 0 0 4px 4px;
+    text-align: center;
+    padding: 30px;
+}
+.team_member_name{
+    margin-bottom: 10px;
+}
+
+
+/* footer styles */
+.footer{
+    background-color: #2F303A;
+    padding: 60px 0 60px 0;
+    display: flex;
+    justify-content: center;
+}
+.footer_wrapper{
+    width: 1170px;
+}
+.logo_footer{
+    text-decoration: none;
+    font-size: 26px;
+    font-family: 'Oswald', sans-serif;
+    font-family: 'Raleway', sans-serif;
+    color: #2196F3;
+}
+.logo_footer>span{
+    color: #fff;
+}
+.footer_address{
+    margin: 20px 0 0 0;
+    display: flex;
+    flex-direction: column;
+}
+.footer_contact{
+    color: #fff;
+    font-size: 14px;
+    font-style: normal;
+}
+.mail,.phone{
+    opacity: 0.6;
+}
+.mail{
+    margin: 9px 0 9px 0;
+}
