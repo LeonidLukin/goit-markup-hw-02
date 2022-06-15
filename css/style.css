@@ -16,6 +16,11 @@ body{
 }
 a{
     text-decoration: none;
+
+    font-size: 14px;
+    line-height: 1.2;
+
+    font-weight: 500;
     color: #000;
 }
 h1,h2,h3{
@@ -65,6 +70,8 @@ header nav {
 .header__nav {
     display: flex;
     justify-content: space-between;
+
+    
     width: 294px;
 }
 .header__nav_link{
@@ -103,9 +110,10 @@ a:focus{
 .hero_section{
    margin: auto 0;
 }
-.hero h1 {
+.reSize {
     font-weight: 900;
     font-size: 44px;
+    line-height: 1.4;
     width: 696px;
     margin-bottom: 1.5em;
 }
@@ -144,13 +152,14 @@ a:focus{
     margin: 0 0 10px 0;
     
     font-size: 14px;
+    line-height: 1.2;
     font-weight: 700;
 
     color: #212121;
 }
 .peculiarities_descr{
     font-size: 14px;
-    font-weight: 400;
+    line-height: 1.7;
 
     color: #757575;
 }
@@ -169,7 +178,10 @@ a:focus{
     display: flex;
     justify-content: center;
     font-size: 36px;
+    line-height: 1.2;
     font-weight: 700;
+
+    color: var(--black);
 }
 
 .activity_list{
@@ -246,6 +258,7 @@ a:focus{
 }
 .footer_address{
     margin: 20px 0 0 0;
+    line-height: 1.7;
     display: flex;
     flex-direction: column;
 }
@@ -323,7 +336,18 @@ p{
 .works{
     margin: 0 auto 94px auto;
 }
+.works-title{
+    margin: 0 0 10px 0;
+    
+    font-size: 18px;
+    line-height: 2;
+    font-weight: 700;
+
+    color: #212121;
+}
 .works-subtitle {
+    font-size: 16px;
+    line-height: 1.8;
 }
 .work-link>img{
     width: 370px;
