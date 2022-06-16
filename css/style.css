@@ -9,8 +9,8 @@
 body{
     padding: 0;
     margin: 0;
-
-    font-family: "Roboto", 'inherit';
+    
+    font-family: 'Roboto', 'sans-serif';
     
     color: var(--white)
 }
@@ -21,7 +21,7 @@ body{
     font-size: 14px;
     line-height: 1.2;
 
-    font-weight: 500;
+    font-weight: 400;
     color: #000;
 }
 /* убирает margin и padding в параграфах (p) */
@@ -29,6 +29,7 @@ body{
     margin: 0;
     padding: 0;
 }
+
 
 /* Header styles */
 .header{
@@ -53,7 +54,6 @@ header nav {
 
     text-decoration: none;
     font-size: 26px;
-    font-family: 'Oswald', sans-serif;
     font-family: 'Raleway', sans-serif;
 
     color: var(--btn-active);
@@ -71,8 +71,11 @@ header nav {
     padding: 0;
     margin: 0;
 }
-.header__nav_link{
+.header__nav_link {
     margin: auto 0;
+}
+.header__nav_link>a{
+    font-weight: 500;
 }
 
 .header_addres_link{
@@ -117,7 +120,6 @@ a:focus{
     line-height: 1.4;
     width: 696px;
     margin: 0 0 1em 0;
-
 }
 
 .btn{
@@ -127,7 +129,7 @@ a:focus{
     line-height: 1.9;
     border-radius: 4px;
     border: none;
-    font-family: 'Roboto', 'inherit';
+    font-family: inherit;
     
     background-color: var(--btn-active);
     color: var(--white);
@@ -169,15 +171,17 @@ a:focus{
 
     color: #212121;
 }
+/* стиль цвета для параграфов */
+.descr{
+    color: #757575;
+}
 .peculiarities_descr{
     font-size: 14px;
     line-height: 1.7;
-
-    color: #757575;
 }
 
 /* activity style */
-.section{
+.wrapper{
     width: 1170px;
     margin: 0 auto;
 }
@@ -229,12 +233,14 @@ a:focus{
 }
 .team_card{
     box-shadow: rgba(0, 0, 0, 0.24) 0px 2px 4px;
+    list-style: none;
 }
 .team_card>img {
     width: 270px;
-    display: inherit;
+    display: block;
 }
 .card_wrapper{
+
     padding: 30px;
 
     border-radius: 0 0 4px 4px;
@@ -291,8 +297,17 @@ a:focus{
     font-size: 14px;
     font-style: normal;
 }
-.mail,.phone{
+.mail,
+.phone,
+.location{
     opacity: 0.6;
+}
+.footer_address_loc a{
+    text-decoration: none;
+    color: var(--white)
+}
+.footer_address_loc a:hover{
+    color: var(--btn-active);
 }
 .mail{
     margin: 9px 0 9px 0;
@@ -301,7 +316,7 @@ a:focus{
 /* PORTFOLIO STYLE*/
 
 .filter-btn{
-    font-family: 'Roboto', 'inherit';
+    font-family: inherit;
     font-size: 16px;
     font-weight: 500;
     line-height: 1.62;
@@ -358,9 +373,6 @@ a:focus{
     border: 1px solid #EEEEEE;
 }
 
-p{
-    color: #757575;
-}
 .works{
     margin: 0 auto 94px auto;
 }
@@ -379,7 +391,7 @@ p{
 }
 .work-link>img{
     width: 370px;
-    display: inherit;
+    display: block;
 }
 .work-title{
     padding: 30px;
