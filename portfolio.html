@@ -4,35 +4,36 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./css/style.css">
-
-    <title>First markup hw</title>
-
+    
+    <title>portfolio</title>
+    
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Merienda:wght@400;700&family=Oswald:wght@200;500;700&family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap" rel="stylesheet">
-
+    
+    <link rel="stylesheet" href="./css/style.css">
 </head>
 <body>
     <header class="header">
         <nav>
-            <a class="header_logo logo" href="/index.html">Web<span>Studio</span></a>
+            <a class="header_logo logo" href="">Web<span>Studio</span></a>
 
             <ul class="header__nav">
-                <li class="header__nav_link"><a href="./index.html">Студия</a> </li>
-                <li class="header__nav_link"><a href="./portfolio.html">Портфолио</a> </li>
-                <li class="header__nav_link"><a href="">Контакты</a> </li>
+                <li class="header__nav_link"><a href="./index.html" class="link">Студия</a> </li>
+                <li class="header__nav_link"><a href="./portfolio.html" class="link active">Портфолио</a> </li>
+                <li class="header__nav_link"><a href="" class="link">Контакты</a> </li>
             </ul>
         </nav>
 
             <address class="address">
-                <a class="header_addres_link" href="mailto:info@devstudio.com">info@devstudio.com</a>
-                <a class="header_addres_link" href="tel:+380961111111">+38 096 111 11 11</a>
+                <a class="header_addres_link link" href="mailto:info@devstudio.com">info@devstudio.com</a>
+                <a class="header_addres_link link" href="tel:+380961111111">+38 096 111 11 11</a>
             </address>
     </header>
 
     <main class="main">
-        <section class="filter-box">
+        <section class="filter-box works section">
+            <h1 class=" title hide">our works list</h1>
             <ul class="filter-list">
                 <li class="filter-link">
                     <button type="button" class="filter-btn">Все</button>
@@ -50,72 +51,72 @@
                     <button type="button" class="filter-btn">Маркетинг</button>
                 </li>
             </ul>
-        </section>
+        <!-- </section> -->
 
 <!-- OUR WORK COLLECTION STYLE -->
-    <section class="works section">
+    <!-- <section class="works section"> -->
         <ul class="works-list">
             <li class="work-link">
                 <img src="./images/out-works/w1.jpg" alt="web site work">
                 <div class="work-title">
                     <h3 class="works-title">Технокряк</h3>
-                    <p class="works-subtitle subTitle">Веб-сайт</p>
+                    <p class="works-subtitle subTitle indent">Веб-сайт</p>
                 </div>
             </li>
             <li class="work-link">
                 <img src="./images/out-works/w2.jpg" alt="design work">
                 <div class="work-title">
                     <h3 class="works-title">Постер New Orlean vs Golden Star</h3>
-                    <p class="works-subtitle subTitle">Дизайн</p>
+                    <p class="works-subtitle subTitle indent">Дизайн</p>
                 </div>
             </li>
             <li class="work-link">
                 <img src="./images/out-works/w3.jpg" alt="application work Seafood">
                 <div class="work-title">
                     <h3 class="works-title">Ресторан Seafood</h3>
-                    <p class="works-subtitle subTitle">Приложение</p>
+                    <p class="works-subtitle subTitle indent">Приложение</p>
                 </div>
             </li>
             <li class="work-link">
                 <img src="./images/out-works/w4.jpg" alt="marketing work">
                 <div class="work-title">
                     <h3 class="works-title">Проект Prime</h3>
-                    <p class="works-subtitle subTitle">Маркетинг</p>
+                    <p class="works-subtitle subTitle indent">Маркетинг</p>
                 </div>
             </li>
             <li class="work-link">
                 <img src="./images/out-works/w5.jpg" alt="application work Boxes">
                 <div class="work-title">
                     <h3 class="works-title">Проект Boxes</h3>
-                    <p class="works-subtitle subTitle">Приложение</p>
+                    <p class="works-subtitle subTitle indent">Приложение</p>
                 </div>
             </li>            
             <li class="work-link">
                 <img src="./images/out-works/w6.jpg" alt="web site work">
                 <div class="work-title">
                     <h3 class="works-title">Inspiration has no Borders</h3>
-                    <p class="works-subtitle subTitle">Веб-сайт</p>
+                    <p class="works-subtitle subTitle indent">Веб-сайт</p>
                 </div>
             </li>
             <li class="work-link">
                 <img src="./images/out-works/w7.jpg" alt="design work Limited Edition">
                 <div class="work-title">
                     <h3 class="works-title">Издание Limited Edition</h3>
-                    <p class="works-subtitle subTitle">Дизайн</p>
+                    <p class="works-subtitle subTitle indent">Дизайн</p>
                 </div>
             </li>
             <li class="work-link">
                 <img src="./images/out-works/w8.jpg" alt="Marketing work project LAB">
                 <div class="work-title">
                     <h3 class="works-title">Проект LAB</h3>
-                    <p class="works-subtitle subTitle">Маркетинг</p>
+                    <p class="works-subtitle subTitle indent">Маркетинг</p>
                 </div>
             </li>
             <li class="work-link">
                 <img src="./images/out-works/w9.jpg" alt="application work Growing Business">
                 <div class="work-title">
                     <h3 class="works-title">Growing Business</h3>
-                    <p class="works-subtitle subTitle">Приложение</p>
+                    <p class="works-subtitle subTitle indent">Приложение</p>
                 </div>
             </li>
             
@@ -125,12 +126,12 @@
 
     <footer class="footer">
         <div class="footer_wrapper">
-            <a href="" class="logo_footer">Web<span>Studio</span> </a>
+            <a href="" class="logo_footer ">Web<span>Studio</span> </a>
     
             <address class="footer_address">
-                <p class="footer_address_loc footer_contact">г. Киев, пр-т Леси Украинки, 26</p>
-                <a class="footer_contact mail" href="mailto:info@example.com">info@example.com</a>
-                <a class="footer_contact phone" href="tel:+380991111111">+38 099 111 11 11</a>
+                <p class="footer_address_loc footer_contact indent">г. Киев, пр-т Леси Украинки, 26</p>
+                <a class="footer_contact mail link" href="mailto:info@example.com">info@example.com</a>
+                <a class="footer_contact phone link" href="tel:+380991111111">+38 099 111 11 11</a>
             </address>
         </div>
     </footer>
