@@ -11,24 +11,30 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Merienda:wght@400;700&family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap" rel="stylesheet">
     
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.1.0/modern-normalize.min.css" integrity="sha512-wpPYUAdjBVSE4KJnH1VR1HeZfpl1ub8YT/NKx4PuQ5NmX2tKuGu6U/JRp5y+Y8XG2tV+wKQpNHVUX03MfMFn9Q==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
     <link rel="stylesheet" href="./css/style.css">
 </head>
 <body>
     <header class="header">
-        <nav>
-            <a class="header_logo logo" href="./index.html">Web<span>Studio</span></a>
+        <nav class="container main-nav">
+                <a class="header_logo logo" href="./index.html">Web<span>Studio</span></a>
 
-            <ul class="header__nav">
-                <li class="header__nav_link "><a href="./index.html" class="link active">Студия</a> </li>
-                <li class="header__nav_link"><a href="./portfolio.html" class="link">Портфолио</a> </li>
-                <li class="header__nav_link"><a href="" class="link">Контакты</a> </li>
-            </ul>
+                <ul class="site-nav list">
+                    <li class="nav-link link"><a href="./index.html" class="link active">Студия</a> </li>
+                    <li class="nav-link link"><a href="./portfolio.html" class="link">Портфолио</a> </li>
+                    <li class="nav-link link"><a href="" class="link">Контакты</a> </li>
+                </ul>
+            
+                <ul class="auth-nav list">
+                    <li class="auth-nav-link link" >
+                        <a href="mailto:info@devstudio.com">info@devstudio.com</a>
+                    </li>
+                    <li class="auth-nav-link link" >
+                        <a href="tel:+380961111111">+38 096 111 11 11</a>
+                    </li>
+                </ul>
         </nav>
-
-        <div class="address">
-            <a class="header_addres_link link" href="mailto:info@devstudio.com">info@devstudio.com</a>
-            <a class="header_addres_link link" href="tel:+380961111111">+38 096 111 11 11</a>
-        </div>
     </header>
 
     <main class="main">
@@ -39,10 +45,10 @@
             </div>
         </section>
     
-        <section class="peculiarities_wrapper ">
-            <div class="peculiarities_box">
-                <h2 class="title hide">Наши преймущества</h2>
-                <ul class="peculiarities_list">
+        <section class="section">
+            <div class="container">
+                <h2 class="title section-title">Наши преимущества</h2>
+                <ul class="benefits-list list">
                     <li class="peculiarities_item">
                         <h3 class="peculiarities_title titleThird">Внимание к деталям</h3>
                         <p class="peculiarities_descr indent descr">Идейные соображения, а также начало повседневной работы по формированию позиции.</p>
