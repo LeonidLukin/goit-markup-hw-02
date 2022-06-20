@@ -33,7 +33,7 @@ a.active {
 
 /* #region Header */
 :visited {
-  color: var(--black);
+  color: #212121;
 }
 .container {
   width: 1170px;
