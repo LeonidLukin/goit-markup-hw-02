@@ -105,28 +105,23 @@ a.active {
 
 /* #region Hero*/
 .hero {
-  display: flex;
-  justify-content: center;
   text-align: center;
-  height: 600px;
 
   background-color: #2f303a;
   color: var(--white);
 }
-.hero_section {
-  margin: 200px 0;
-}
-.reSize {
+
+.hero-title {
   text-transform: uppercase;
   letter-spacing: 0.06em;
   font-weight: 900;
   font-size: 44px;
   line-height: 1.4;
   width: 696px;
-  margin: 0 0 1em 0;
+  margin: 0 auto 1em auto;
 }
 
-.btn {
+.hero-btn {
   padding: 0.6em 2em;
   font-weight: 700;
   font-size: 16px;
@@ -141,10 +136,10 @@ a.active {
 /* #endregion Hero*/
 
 /* #region Benefits */
-.section {
+/* .section {
   width: 1170px;
   margin: 0 auto;
-}
+} */
 .section-title {
   text-transform: uppercase;
   margin-top: 2em;
@@ -152,17 +147,17 @@ a.active {
 
 .benefits-list {
   display: flex;
-  margin: 0;
-  padding: 0;
-}
-.peculiarities_item {
-  width: 270px;
   padding: 94px 0 94px 0;
+  margin: 0;
+  list-style: none;
 }
-.peculiarities_item:not(:last-child) {
+.benefit-item {
+  width: 270px;
+}
+.benefit-item:not(:last-child) {
   padding-right: 30px;
 }
-.peculiarities_title {
+.benefit-title {
   margin: 0 0 10px 0;
 
   font-size: 14px;
@@ -174,12 +169,10 @@ a.active {
   color: #212121;
 }
 /* стиль цвета для параграфов */
-.descr {
-  color: #757575;
-}
-.peculiarities_descr {
+.benefit-descr {
   font-size: 14px;
   line-height: 1.7;
+  color: #757575;
 }
 /* #endregion Benefits */
 
@@ -196,8 +189,7 @@ a.active {
 /* style for all titles */
 .title {
   margin: 0;
-  display: flex;
-  justify-content: center;
+  text-align: center;
   font-size: 36px;
   line-height: 1.2;
   font-weight: 700;
